@@ -1,5 +1,6 @@
 # Custom aliases
 
-alias gfc='cd /Users/jayannsd/Dropbox/GFC/new/supportGFC;pwd'        # Go to GFC project folder
-alias src='cd /Users/jayannsd/src;pwd'
-alias work='cd /Users/jayannsd/work;pwd'
+alias gfc='cd $HOME/Dropbox/GFC/new/supportGFC;pwd'        # Go to GFC project folder
+alias src='cd $HOME/src;pwd'
+alias work='cd $HOME/work;pwd'
+alias gitset='git config --local user.email "sjayanna@gmail.com"'
