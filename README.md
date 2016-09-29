@@ -5,6 +5,7 @@ My dotfiles. I also use [bash_it](https://github.com/Bash-it/bash-it.git)
 
 # Bash-it
 # Bash-it app
+# Testing github desktop
 
 **Bash-it** is a collection of community Bash commands and scripts.
 
