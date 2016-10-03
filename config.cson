@@ -1,0 +1,30 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "fbf5fd94-a8bf-41e0-bd98-368f4d8fa091"
+  autosave:
+    enabled: true
+  core:
+    themes: [
+      "seti-ui"
+      "monokai-seti"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "monaco"
+    invisibles: {}
+    softWrap: true
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "2b22e1b2-b259-3655-c797-1bd42401c616"
+  "seti-ui":
+    fileIcons: false
+  "terminal-plus":
+    style:
+      theme: "dracula"
+    toggles:
+      autoClose: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
