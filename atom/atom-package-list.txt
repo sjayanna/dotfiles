@@ -2,10 +2,13 @@ advanced-open-file@0.16.4
 atom-beautify@0.29.13
 atom-elixir@0.2.1
 atom-material-syntax@0.4.6
+autocomplete-elixir@1.5.14
 file-icons@1.7.19
 git-plus@5.18.0
+goto-definition@1.1.19
+language-elixir@0.16.0
 monokai-seti@0.7.0
-nucleus-dark-ui@0.10.7
+nucleus-dark-ui@0.10.9
 open-in-browser@0.4.7
 open-recent@5.0.0
 railscast-theme@0.3.0
