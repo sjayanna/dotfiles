@@ -3,6 +3,8 @@
 alias src='cd $HOME/src;pwd'
 alias work='cd $HOME/work;pwd'
 alias gitset='git config --local user.email "sjayanna@gmail.com"'
+alias gpullm='gco master; sleep 1; gl'
+alias gpullr='gco release; sleep 1; gl'
 alias gr='git remote -v'
 alias gdiff='git diff'
 alias cdtxn='cd $HOME/work/connect/components/transaction;pwd'
