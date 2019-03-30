@@ -15,7 +15,7 @@
 [core]
 	autocrlf = false
 	safecrlf = true
-	excludesfile = /Users/username/.gitignore_global
+	excludesfile = /home/sjayanna/.gitignore_global
 	editor = vim
 [color]
 	ui = auto
