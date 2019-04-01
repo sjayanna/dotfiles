@@ -36,7 +36,7 @@ Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-rails' 
-Plugin 'mileszs/ack.vim'																							
+Plugin 'mileszs/ack.vim'																						" Usage - :Ack [options] {pattern} [{directories}]	
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
