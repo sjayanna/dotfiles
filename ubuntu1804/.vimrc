@@ -16,10 +16,14 @@ set smarttab
 syntax enable
 autocmd BufLeave,FocusLost * silent! wall
 set pastetoggle=<F2>
-" #------------------NERDTree settings----------------#
+
+" #------------------Begin NERDTree settings----------------#
 let NERDTreeShowHidden=1																								"Show Hidden Files
 let NERDTreeIgnore=['.git$[[dir]]', '.swp']															"Filter Out Custom Files and Directories
+let g:NERDTreeNodeDelimiter = "\u00a0"
 map <C-n> :NERDTreeToggle<CR> 
+" #------------------End NERDTree settings----------------#
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -28,10 +32,11 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-vinegar' "custome plugin
-Plugin 'scrooloose/nerdtree' "custom plugin
-Plugin 'ctrlpvim/ctrlp.vim' "custom plugin
-Plugin 'tpope/vim-rails' "custom plugin
+Plugin 'tpope/vim-vinegar' 
+Plugin 'scrooloose/nerdtree'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-rails' 
+Plugin 'mileszs/ack.vim'																							
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
