@@ -1,0 +1,3 @@
+#!/bin/bash
+#echo "\`$(date +%H)\` Hundred" | espeak
+echo "Time is \`$(date +%I:%m:%p)\`" | espeak -a 80
