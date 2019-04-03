@@ -4,9 +4,9 @@ set number
 set tabstop=2
 set hardtabs=2
 set shiftwidth=2
-"set background=dark
-"colorscheme koehler
-set guifont=Monaco:h14
+" set background=dark
+" colorscheme koehler
+" set guifont=Monaco:h14
 syntax on
 set ignorecase
 set smartcase
