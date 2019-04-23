@@ -23,6 +23,7 @@ Install the following items:
 
 * [bash-it](https://github.com/Bash-it/bash-it)
 * [dotfiles](https://github.com/sjayanna/dotfiles)
+* [vundle](https://github.com/VundleVim/Vundle.vim)
 * Xcode command-line tools - `xcode-select --install`
 * [brew](http://brew.sh/index.html)
 * [rvm](https://rvm.io/)
