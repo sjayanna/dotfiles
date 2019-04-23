@@ -49,6 +49,6 @@ export SCM_CHECK=true
 
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
-export DYLD_LIBRARY_PATH="/usr/local/lib/libwep"
+#export DYLD_LIBRARY_PATH="/usr/local/lib/libwep"
 export HOMEBREW_NO_ANALYTICS=1
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
