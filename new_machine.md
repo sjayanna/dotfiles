@@ -1,8 +1,9 @@
-# New machine setup
+# New mac setup
 
 Install the following items:
 
-1. [dotfiles](https://github.com/sjayanna/dotfiles) and bash_it plugin
+0. [bash-it](https://github.com/Bash-it/bash-it) Install bash-it
+1. [dotfiles](https://github.com/sjayanna/dotfiles)
 2. Xcode command-line tools - `xcode-select --install`
 3. [brew](http://brew.sh/index.html)
 4. [rvm](https://rvm.io/)
