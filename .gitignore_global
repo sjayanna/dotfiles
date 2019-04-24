@@ -2,3 +2,5 @@
 .DS_Store
 .idea
 .secret
+Procfile.connect_rocket_job
+.ruby_version
