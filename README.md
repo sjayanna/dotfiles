@@ -31,3 +31,7 @@ Install the following items:
 * Install tools via brew cask, eg - `brew cask install vlc`
 * Install `iterm2`, `google-chrome`, `slack`, `atom` via brew cask similar to step 6.
 * Install default brew packages from - `cat brew-app-list.txt | xargs brew install`
+
+# Tips
+
+* To preserver bash history - http://lpetr.org/blog/archives/preserve-bash-history
