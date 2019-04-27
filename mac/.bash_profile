@@ -46,6 +46,21 @@ export SCM_CHECK=true
 # (Advanced): Uncomment this to make Bash-it reload itself automatically
 # after enabling or disabling aliases, plugins, and completions.
 # export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
+# --------------------Begin history settings-----------------------
+# Maximum number of history lines in memory
+export HISTSIZE=50000
+# Maximum number of history lines on disk
+export HISTFILESIZE=50000
+# Ignore duplicate lines
+export HISTCONTROL=ignoredups:erasedups
+# When the shell exits, append to the history file
+#  instead of overwriting it
+shopt -s histappend
+
+# After each command, append to the history file
+#  and reread it
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+# -------------------End of history settings----------------------
 
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
