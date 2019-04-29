@@ -1,6 +1,18 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set number
+set tabstop=2
+set hardtabs=2
+set shiftwidth=2
+syntax on
+set ignorecase
+set smartcase
+set autoindent
+set smartindent
+set smarttab
+syntax enable
+
+
 
 let NERDTreeShowHidden=1																								"Show Hidden Files
 let NERDTreeIgnore=['.git$[[dir]]', '.swp']															"Filter Out Custom Files and Directories
