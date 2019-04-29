@@ -1,0 +1,6 @@
+.project
+.DS_Store
+.idea
+.secret
+Procfile.connect_rocket_job
+Procfile.connect_rocket_job
