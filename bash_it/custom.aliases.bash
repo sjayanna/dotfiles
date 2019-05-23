@@ -1,5 +1,6 @@
 # Custom aliases
 
+alias tat='tmux attach -t'
 alias src='cd $HOME/src;pwd'
 alias work='cd $HOME/work;pwd'
 alias gitset='git config --local user.email "sjayanna@gmail.com"'
