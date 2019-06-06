@@ -20,6 +20,7 @@ alias gfc='cd $HOME/work/supportGFC;rvm use 2.3.1@supportGFC;pwd'
 alias dotfiles='cd $HOME/src/dotfiles;pwd'
 alias gfc_deploy='bundle exec cap production deploy'
 alias download-best-audio='youtube-dl --extract-audio --audio-format mp3'
+alias download-best-video="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'"
 # Define aliases
 alias cdca="cd ~/Sandbox/connect/apps/consumer_action"
 alias cdapi="cd ~/Sandbox/connect/apps/real_time_api"
