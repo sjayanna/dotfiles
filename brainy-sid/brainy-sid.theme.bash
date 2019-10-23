@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Brainy Bash Prompt for Bash-it
-# by MunifTanjim
 
 #############
 ## Parsers ##
