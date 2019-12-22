@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="af-magic"
+ZSH_THEME="superjarin"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -77,6 +77,10 @@ plugins=(
   rbenv
   rvm
   ruby
+	brew
+	common-aliases
+	history
+	tmux
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -113,6 +117,7 @@ alias gpom="git push origin master"
 alias ggs="glod"
 alias gcm="git commit -m"
 alias gall="git add --all"
+alias youtube-dl-audio="youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 "
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/sbin:$PATH"
