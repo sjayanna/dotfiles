@@ -13,7 +13,7 @@ set smarttab
 syntax enable
 
 " NerdTree settings
-let NERDTreeShowHidden=1																								"Show Hidden Files
+" let NERDTreeShowHidden=0																								"Show Hidden Files
 let NERDTreeIgnore=['.git$[[dir]]', '.swp']															"Filter Out Custom Files and Directories
 let g:NERDTreeNodeDelimiter="\u00a0"
 map <C-n> :NERDTreeToggle<CR> 
@@ -35,6 +35,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'mileszs/ack.vim'																						" Usage - :Ack [options] {pattern} [{directories}]	
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

@@ -77,6 +77,10 @@ plugins=(
   rbenv
   rvm
   ruby
+	brew
+	common-aliases
+	history
+	tmux
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -120,6 +124,7 @@ alias gall="git add --all"
 alias gbsort="gb --sort=-committerdate"
 alias rails-migrate="RAILS_ENV=test bin/rails db:migrate && RAILS_ENV=development bin/rails db:migrate"
 alias youtubebestvideo="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
+alias youtube-dl-audio="youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 "
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/sbin:$PATH"
