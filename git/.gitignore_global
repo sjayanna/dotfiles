@@ -4,3 +4,4 @@
 .secret
 Procfile.connect_rocket_job
 Procfile.connect_rocket_job
+TAGS

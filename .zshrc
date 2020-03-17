@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="af-magic"
+ZSH_THEME="superjarin"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -110,9 +110,21 @@ alias c="clear"
 alias ll="ls -lah"
 alias gs="gst"
 alias gpom="git push origin master"
+alias gpo="git push origin"
+alias gpfo="git push -f origin"
 alias ggs="glod"
 alias gcm="git commit -m"
+alias gcom="gco master"
+alias grbim="grbi master"
 alias gall="git add --all"
+alias gbsort="gb --sort=-committerdate"
+alias rails-migrate="RAILS_ENV=test bin/rails db:migrate && RAILS_ENV=development bin/rails db:migrate"
+alias youtubebestvideo="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/sbin:$PATH"
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
+eval "$(rbenv init -)"
+# Make forking work
+# https://blog.phusion.nl/2017/10/13/why-ruby-app-servers-break-on-macos-high-sierra-and-what-can-be-done-about-it/
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
