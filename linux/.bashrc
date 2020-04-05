@@ -200,3 +200,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export EDITOR=vim
 export ENABLE_PRY=true
 motivate
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
