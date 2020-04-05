@@ -1,5 +1,5 @@
 # Custom aliases
-
+alias tls='tmux ls'
 alias tat='tmux attach -t'
 alias src='cd $HOME/src;pwd'
 alias work='cd $HOME/work;pwd'
