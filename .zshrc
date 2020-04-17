@@ -130,7 +130,6 @@ alias youtube-dl-audio="youtube-dl -f bestaudio --extract-audio --audio-format m
 export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
-eval "$(rbenv init -)"
 # Make forking work
 # https://blog.phusion.nl/2017/10/13/why-ruby-app-servers-break-on-macos-high-sierra-and-what-can-be-done-about-it/
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
