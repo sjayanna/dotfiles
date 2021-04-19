@@ -24,3 +24,7 @@
 	smudge = git-lfs smudge -- %f
 	required = true
 	process = git-lfs filter-process
+[diff]
+   tool = code
+[push]
+	default = current

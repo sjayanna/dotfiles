@@ -70,8 +70,6 @@ ZSH_THEME="superjarin"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  bundler
-  dotenv
   osx
   rake
   rbenv
@@ -123,6 +121,8 @@ alias grbim="grbi master"
 alias gall="git add --all"
 alias gbsort="gb --sort=-committerdate"
 alias besrspec="be spring rspec"
+alias be="bundle exec"
+alias runrubocop="bundle exec rubocop -D --parallel"
 alias rails-migrate="RAILS_ENV=test bin/rails db:migrate && RAILS_ENV=development bin/rails db:migrate"
 alias youtubebestvideo="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias youtube-dl-audio="youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 "
