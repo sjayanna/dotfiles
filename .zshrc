@@ -73,7 +73,6 @@ plugins=(
   osx
   rake
   rbenv
-  rvm
   ruby
 	brew
 	common-aliases
@@ -81,6 +80,7 @@ plugins=(
 	tmux
 )
 
+ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -127,7 +127,6 @@ alias rails-migrate="RAILS_ENV=test bin/rails db:migrate && RAILS_ENV=developmen
 alias youtubebestvideo="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'"
 alias youtube-dl-audio="youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 "
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 # Make forking work
